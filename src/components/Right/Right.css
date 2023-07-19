@@ -1,0 +1,323 @@
+.small-font{
+    color: #ACACAC;
+font-family: Poppins;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.00875rem;
+}
+
+.font-big{
+    color: #333;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+    letter-spacing: -0.02rem;
+}
+
+/* ------------------- */
+
+.right_section_container{
+    flex: 4;
+    padding: 2.56rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.88rem;
+}
+
+.school-name{
+    font-weight: 600;
+}
+
+.right_section_container_firstcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.81rem;   
+}
+
+.div-c1{
+    padding: 2rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.81rem;
+    border-radius: 2rem;
+
+}
+
+.div-c1>div{
+    display: flex;
+    align-items: center;
+    justify-self: stretch;
+    flex: 1;
+    gap: 1.25rem;
+}
+
+.div-c1>div:first-child{
+    border-right: 1px solid rgba(240, 240, 240, 1);
+}
+
+
+
+.firstttt{
+    border-radius: 50%;
+    background-image: linear-gradient(201deg, #D3FFE7 0%, #EFFFF6 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+.firstline{
+    color: #ACACAC;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* letter-spacing: -0.00875rem; */
+}
+
+.profit-loss{
+    display: flex;
+    align-items: center;
+}
+
+.p-tag{
+    color: #292D32;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.0075rem;
+}
+
+.green{
+    color: #00AC4F;
+}
+
+
+.parent-of-second{
+    border-right: 1px solid rgba(240, 240, 240, 1);
+}
+
+.second{
+    border-radius: 50%;
+    background-image: linear-gradient(201deg, #CAF1FF 0%, #CDF4FF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    
+}
+
+.balance-info{
+    align-self: flex-start;
+    margin-top: 0.5rem;
+}
+
+.thirdd{
+    border-radius: 50%;
+    background-image: linear-gradient(201deg, rgba(255, 163, 207, 1), rgba(255, 212, 243, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    
+}
+
+.larger-tirdd{
+    color: #333;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.02rem;
+}
+
+.div-c2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.37rem;
+}
+
+.div-c2>div{
+    flex: 1;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 1.13rem 1.81rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.div-c3{
+    display: flex;
+    gap: 2.31rem;
+}
+
+.div-c3 >div{
+    padding: 1.59rem 2.37rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.div-c3 >div >h4{
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.01375rem;
+}
+
+.barchart{
+    margin-top: 1.69rem;
+}
+
+.myownchart{
+    /* height: 200px !important;
+    width: 100px !important; */
+    width: 33.9375rem !important;
+    height: 14.125rem !important;
+}
+
+tspan{
+    color: #4F4F4F;
+    font-family: Poppins;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.005rem;
+}
+
+
+.mywonpie{
+    width: 10.9375rem !important;
+    height: 9.9375rem !important;
+}
+
+.dot{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+}
+.dark-blue{
+    background-color: rgba(67, 24, 255, 1);
+}
+
+.cash-dot{
+    background-color: rgba(106, 210, 255, 1)
+}
+
+.cheque-dot{
+    background-color: rgba(239, 244, 251, 0.73);
+}
+
+.dots-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    gap: 1.37rem;
+}
+
+
+.dots-div >div>div{
+    display: flex;
+    align-items: center;
+    gap: 0.31rem;
+}
+
+.dots-div >div>p{
+    text-align: center;
+}
+
+.percentages{
+    color: #2B3674;
+    font-family: DM Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem; 
+    letter-spacing: -0.0225rem;
+}
+
+
+/* ------------two below tables ---------*/
+.last-div-info{
+    display: flex;
+    gap: 2.06rem;
+}
+
+
+.admins-container, .disbursal-container{
+    /* padding: 1.19rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.325rem;
+    flex: 1;
+}
+
+.admin-container-heading-div,.disbursal-container-heading-div{
+    padding: 1.19rem;
+    background-color: white;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.admin-container-heading-div>h3, .disbursal-container-heading-div>h3{
+    margin-bottom: 1.44rem;
+}
+
+.admin-container-heading-div>div,.disbursal-container-heading-div>div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.admin-container-heading-div>div>p,.disbursal-container-heading-div>div>p{
+    color: #A3AED0;
+    font-family: DM Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; 
+    letter-spacing: -0.0175rem;
+}
+
+.admin-names, .disbursal-names{
+    padding: 1.19rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.admin-names>div>p, .disbursal-names>div>p,.disbursal-names>div>div>p{
+    color: #2B3674;
+/* Body Text/ Small/ Bold */
+font-family: DM Sans;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem; /* 171.429% */
+letter-spacing: -0.0175rem;
+margin-bottom: 0.68rem;
+}
+
+.disbursal-container{
+    flex: 2;
+}
+
+.disbursal-names>div>div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}

@@ -1,0 +1,122 @@
+.left_section_container{
+    padding: 2.25rem 1.75rem;
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.left_section_heading{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.left_section_heading>h1 >span{
+    font-size: 0.625rem;
+    align-self: last baseline;
+    color: #838383;
+    font-weight: 600;
+}
+
+.left_section_container >ul{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1.35rem;
+    list-style: none;
+}
+
+.left_section_container >ul>li{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.34rem;
+    border-radius: 0.5rem;
+    color: #9197B3;
+}
+
+.left_section_container >ul>li:hover{
+    background-color: #5932EA;
+    color: white;
+}
+
+.left_section_container >ul>li>div{
+    display: flex;
+    align-items: center;
+    gap: 0.88rem;
+}
+
+.right-arrow{
+    justify-self: flex-end;
+}
+
+.right-arrow:hover{
+    color: #5932EA;
+}
+
+.admin-profile-image{
+    width: 2.625rem;
+    height: 2.625rem;
+    border-radius: 50%;
+}
+
+.profile_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.profile_div > div{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.admin{
+    color: #757575;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    letter-spacing: 0.0075rem;
+}
+
+
+.name-of-admin{
+    color: #000;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.00875rem;
+}
+
+
+@media screen and (max-width:800px) {
+    .left_section_container{
+        flex: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left_section_container >ul{
+        align-items: center;
+    }
+
+    .left_section_container >ul>li{
+        justify-content: center;
+        padding: 0.69rem 0.39rem;
+        align-items: center;
+    }
+
+    .right-arrow{
+      display: none;
+    }
+
+    .dontdhow-below800{
+        display: none;
+    }
+  }
